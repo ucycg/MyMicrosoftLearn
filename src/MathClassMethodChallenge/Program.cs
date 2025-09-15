@@ -5,7 +5,7 @@ internal class Program
     {
         int firstValue = 500;
         int secondValue = 600;
-        int largerValue = int.Max(firstValue, secondValue);
+        int largerValue = Math.Max(firstValue, secondValue);
 
         Console.WriteLine(largerValue);
     }
